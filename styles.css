@@ -1,0 +1,266 @@
+/*RAINBOW*/
+.rainbow {
+    margin-top: 1210px;
+}
+.rainbow-item {
+    display: block;
+    margin: 0 auto;
+}
+.red {
+    background-color: red;
+    width: 700px;
+    height: 700px;
+}
+.orange {
+    background-color: orange;
+    width: 600px;
+    height: 600px;
+}
+.yellow {
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+}
+.green {
+    background-color: green;
+    width: 400px;
+    height: 400px;
+}
+.lightblue {
+    background-color: lightblue;
+    width: 300px;
+    height: 300px;
+}
+.blue {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+.violet {
+    background-color: darkviolet;
+    width: 100px;
+    height: 100px;
+}
+#wrong-name {
+    color: darkred;
+    font-size: 25px;
+    margin: 15px 0 -50px 0;
+}
+/*END-RAINBOW*/
+.clear {
+    clear: both;
+}
+.header {
+    width: 100%;
+    height: 884px;
+    background-image: url("img/background.png");
+    background-image: url("img/background 2.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.topMenu {
+    width: 80%;
+    margin: 2em auto 0 auto;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding: 0 1em 1.8em 1em;
+}
+.menuElement {
+    color: white;
+    font-weight: 300;
+    font-family: sans-serif;
+    display: inline;
+    font-size: 14pt;
+    padding: 40px 15px 32px 15px;
+    text-decoration: none;
+}
+.menuElement:hover {
+    color: #287CD5;
+    background-color: white;
+    border-bottom: 3px solid black;
+    padding-bottom: 32px;
+}
+.logo {
+    display: inline;
+    font-size: 21pt;
+    padding-bottom: 1.8em;
+    color: white;
+    margin-right: 130px;
+}
+a.login {
+    text-decoration: none;
+    color: black;
+    display: inline;
+    margin-left: 15px;
+    padding: 20px 33px 17px 30px;
+    font-weight: 500;
+    font-size: 14pt;
+    font-family: sans-serif;
+    background-image: url("img/Rounded Rectangle 1.png");
+}
+a.login img {
+    padding-right: 20px;
+}
+.loginto {
+    font-size: 60pt;
+    text-align: center;
+    margin-top: 1.3em;
+    color: white;
+    font-family: Bahnschrift, serif;
+    font-weight: 200;
+    margin-bottom: .5em;
+}
+.form {
+    margin: 0 auto 0 auto;
+    width: 580px;
+}
+.ns {
+    width: 580px;
+    height: 68px;
+    border: 2px solid white;
+    margin: 0 0 31px -13px;
+    font-size: 18pt;
+    color: white;
+    border-radius: 8px;
+    background: transparent;
+    outline: none;
+}
+input[type="text"] {
+    background-image: url("img/email.png");
+    background-repeat: no-repeat;
+    background-position: 33px;
+    padding-left: 90px;
+}
+input[type="password"] {
+    background-image: url("img/password.png");
+    background-repeat: no-repeat;
+    background-position: 33px;
+    padding-left: 90px;
+}
+.checkbox {
+    display: none;
+}
+.label {
+    margin-left: 1.5em;
+}
+label {
+    margin-left: 28px;
+    display: block;
+}
+.checkbox-custom {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    border: 2px solid white;
+    border-radius: 9px;
+}
+.checkbox-custom, .label {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    font-family: sans-serif;
+}
+.checkbox:checked + .checkbox-custom::before {
+    content: url("img/tick.png");
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 6px;
+}
+input[type="submit"] {
+    display: inline;
+    color: white;
+    outline: none;
+    background-color: #4A8AF0;
+    border: none;
+    width: 223px;
+    height: 74px;
+    border-radius: 10px;
+    font-size: 16pt;
+    margin-top: 75px;
+    margin-left: -13px;
+}
+a.register {
+    color: white;
+    font-size: 16pt;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: -47px 0 0 250px;
+}
+a.register img {
+    margin-left: 14px;
+}
+.footer {
+    width: 100%;
+    background-image: url("img/Rectangle 5.png");
+    border-top: 4px solid white;
+    position: absolute;
+    top: 884px;
+    right: 0;
+    left: 0;
+}
+div.copyright {
+    background-image: url("img/Rectangle 6.png");
+    height: 70px;
+    width: 610px;
+    margin: 92px auto 0 auto;
+}
+div.copyright p {
+    color: #6DA7E8;
+    text-align: center;
+    padding-top: 25px;
+}
+.white {
+    color: white;
+}
+ul.navbar {
+    margin: 2em 16% 3em 16%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 80%;
+}
+ul.navbar li {
+    list-style-type: none;
+}
+div.nav a {
+    color: black;
+    font-family: sans-serif;
+    padding: 0 1.2em 1.7em 1em;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+div.nav a:hover {
+    color: #1A73D2;
+    border-bottom: 1px solid #1A73D2;
+}
+div.social {
+    text-align: center;
+    margin: 4.5em auto -1.5em auto;
+}
+div.social a {
+    margin-left: .7em;
+}
+div.social a img {
+    position: relative;
+    top: .75em;
+}
+span.mr {
+    margin-right: 11px;
+}
+::-webkit-input-placeholder {
+    color: white;
+}
+::-moz-placeholder {
+    color: white;
+}
+:-moz-placeholder {
+    color: white;
+}
+:-ms-input-placeholder {
+    color: white;
+}
